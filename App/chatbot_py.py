@@ -66,9 +66,10 @@ def get_response(intents_list, intents_json):
 def working():
     message = str(request.args['query']).lower()  # Input
     ints = predict_class(message)
+    print(ints)
     res = get_response(ints, intents)
     q = 0
-    if ints == "Skin Disease":
+    if ints[0]['intent'] == "Skin Disease":
         q = 1
     return {"message": str(res), "query": str(q)}
 
