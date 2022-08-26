@@ -80,8 +80,8 @@ import numpy as np
 import pandas as pd
 
 import nltk
-nltk.download('all')
-nltk.download('omw-1.4')
+# nltk.download('all')
+# nltk.download('omw-1.4')
 nltk.download('punkt')
 nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
@@ -91,8 +91,8 @@ from tensorflow.keras.optimizers import SGD
 
 lemmatizer=WordNetLemmatizer()
 
-with open('intents.json') as json_file:
-    intents = json.load(json_file)
+with open('./query/intents.json') as json_file:
+  intents = json.load(json_file)
 
 #print(intents)
 

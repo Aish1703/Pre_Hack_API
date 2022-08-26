@@ -58,7 +58,10 @@ def working():
   message = str(request.args['query']).lower()  # Input
   ints=predict_class(message)
   res=get_response(ints,intents)
-  return {"message" : res}
+  q = 0
+  if ints == "Skin Disease":
+    q = 1
+  return {"message" : str(res),"class":str(ints),"query":str(q)}
 
 
 if __name__ == "__main__":

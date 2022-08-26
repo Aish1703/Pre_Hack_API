@@ -11,11 +11,6 @@
              "responses":["have a nice day","goodbye"]
             },
             {
-             "tag":"age",
-             "patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
-             "responses":["I get reborn after every compilation","hey!","my owners are averagely 20 years!"]
-            },
-            {
              "tag":"name",
              "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
              "responses":["you can call me Medbot!","i am Medbot!","i am Medbot your medical assistant"]
@@ -105,10 +100,21 @@
              "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
              "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
             },
+            {   "tag":"Skin Disease",
+                "patterns": ["skin disease",
+                    "skin rash",
+                    "itching",
+                    "peeling skin",
+                    "Red, white or pus-filled bumps.",
+                    "dry skin",
+                    "Open sores, lesions or ulcers",
+                    "Scaly or rough skin",
+                    "Discolored skin patches"],
+                "responses":["It seem that you have some skin disease.\nDo you want me to detect the type of skin disease?"]
+            },
             {
-                "tag":"Skin",
-                "patterns": [],
-                "responses":["It seem that you are suffering from a skin disease, click a photo"]
+                "tag":"Accept",
+                "patterns": ["Yes","Yeah","Sure","ofcourse","okay","ok","k","alright"]
             }
 ]}
         
