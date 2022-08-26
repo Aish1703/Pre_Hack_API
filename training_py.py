@@ -26,6 +26,7 @@ ignore_letters=['?','!','.',',']
 
 for intent in intents['intents']:
   for pattern in intent['patterns']:
+    pattern = str.lower(pattern)
     word_list=nltk.word_tokenize(pattern)
     words.extend(word_list)
     documents.append((word_list,intent['tag']))

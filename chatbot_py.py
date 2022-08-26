@@ -1,3 +1,4 @@
+from distutils.log import ERROR
 import nltk
 import random
 import numpy as np
@@ -31,6 +32,7 @@ def bag_of_words(sentence):
 def predict_class(sentence):
   bow=bag_of_words(sentence)
   res=model.predict(np.array([bow]))[0]
+
   ERROR_THRESHOLD=0.25
   results=[[i,r] for i,r in enumerate(res) if r> ERROR_THRESHOLD]
 
@@ -38,6 +40,7 @@ def predict_class(sentence):
   return_list=[]
   for r in results:
     return_list.append({'intent': classes[r[0]],'probability':str(r[1])})
+  
   return return_list
 
 def get_response(intents_list,intents_json):
@@ -52,7 +55,10 @@ def get_response(intents_list,intents_json):
 print("Start")
 
 def working():
-  message="Hi" #Input
+  message=str.lower(input("")) #Input
   ints=predict_class(message)
   res=get_response(ints,intents)
   return res
+
+while True:
+  print(working())
