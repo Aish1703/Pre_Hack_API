@@ -57,7 +57,7 @@ def get_response(intents_list,intents_json):
 
 @app.route('/get-solution', methods=['GET'])
 def working():
-  message = str(request.args['query'])  # Input
+  message = str(request.args['query']).lower()  # Input
   ints=predict_class(message)
   res=get_response(ints,intents)
   return {"message" : res}
