@@ -80,6 +80,7 @@ import numpy as np
 import pandas as pd
 
 import nltk
+nltk.download('omw-1.4')
 nltk.download('punkt')
 nltk.download('wordnet')
 from nltk.stem import WordNetLemmatizer
