@@ -290,8 +290,7 @@
            },
            {
             "tag":"Cirrhosis",
-            "patterns":["Vomiting blood","Nausea","Fatigue",
-            "Swelling of belly","Getting anemic"],
+            "patterns":["Vomiting blood","Nausea","Fatigue","Swelling of belly","Getting anemic"],
             "responses":["It seems that you are suffering from Cirrhosis"]
            }
 ]}
