@@ -3,17 +3,27 @@
             {
              "tag":"greetings",
              "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
-             "responses":["hello","hey!","what can i do for you?"]
+             "responses":["Hello","Hey!","What can I do for you?"]
             },
             {
              "tag":"goodbye",
-             "patterns": ["cya","see you later","goodbye","have a good day","bye","cao","see ya"],
-             "responses":["have a nice day","goodbye"]
+             "patterns": ["cya","see you later","goodbye","have a good day","bye","ciao","see ya"],
+             "responses":["Have a nice day","Goodbye","Bye"]
             },
             {
              "tag":"name",
              "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
-             "responses":["you can call me Medbot!","i am Medbot!","i am Medbot your medical assistant"]
+             "responses":["You can call me Astra!","I am Astra!","I am Astra your medical assistant","My name is Astra"]
+            },
+            {
+             "tag":"language",
+             "patterns":["which languages can you speak","which laguages do you understand","can you speak this language"],
+             "responses":["I can speak English and Python :)"]
+            },
+            {
+             "tag":"thanks",
+             "patterns":["thanks","thank you","I am thankful for your response","appretiate your help"],
+             "responses":["Welcome","No problem","You are welcome","Happy I could help"]
             },
             {
              "tag":"common cold symptoms",
