@@ -117,6 +117,105 @@
             {
                 "tag":"Accept",
                 "patterns": ["Yes","Yeah","Sure","ofcourse","okay","ok","k","alright"]
+            },
+            {
+                "tag":"Typhoid",
+                "patterns":["Low to high fever",
+                "Headache and body pain",
+                "Loss of appetite and weight Loss",
+                "Dry cough",
+                "Sweating",
+                "Abdominal pain",
+                "Swelling in abdomen",
+                "Diarrhoea or constipation",
+                "Itching or rashes"],
+                "responses":["It seem that you are suffering from Typhoid"]
+            },
+            {
+                "tag": "Dengue",
+                "patterns":["high fever",
+                "Severe headache","Headache",
+                "Muscle pain", "joint pain","muscles and joints becomes painful",
+                "skin rashes",
+                "Fatigue",
+                "Vomiting",
+                "Mild bleeding","bleeding"],
+                "responses":["It seem that you are suffering from Dengue"]
+
+            },{
+                "tag":"Malaria",
+                "patterns":["High fever",
+                "Shaking chills",
+                "Profuse sweating",
+                "Headache",
+                "Abdominal pain",
+                "Muscle pain",
+                "Nausea",
+                "Vomiting",
+                "Diarrhoea",
+                "Anaemia"],
+                "responses":["It seems that you are suffering from Malaria"]
+            },
+            {
+                "tag":"Covid",
+                "patterns":["Fever",
+                "Cough",
+                "Tiredness",
+                "Shortness of breath"," difficulty breathing",
+                "Muscle aches",
+                "Chills",
+                "Sore throat",
+                "Runny nose",
+                "Headache",
+                "Chest pain",
+                "Pink eye","conjunctivitis",
+                "Nausea",
+                "Vomiting",
+                "Diarrhea",
+                "Rash"],
+                "responses":["It seems that you are suffering from Covid"]
+            },
+            {
+                "tag":"Pneumonia",
+                "patterns":["Cough", "mucus","phlegm",
+                "Fever","chills",
+                "Fast breathing",
+                "Shortness of breath",
+                "Chest pain while coughing",
+                "Fast heartbeat",
+                "Feeling very tired"," very weak",
+                "Nausea" ,"vomiting",
+                "Diarrhoea",
+                "Loss of appetite",
+                "Body pain"                    
+                ],
+                "responses":["It seems that you are suffering from Pneumonia"]
+            },
+            {
+                "tag":"Tuberculosis",
+                "patterns":["Persistent cough","cough",
+                "Cough with blood","Cough with blood in sputum",
+                "Fever",
+                "Pain in chest","chest pain",
+                "Weight loss",
+                "Night sweats",
+                "Loss of appetite"],
+                "responses":["It seems that you are suffering from Tuberculosis"]
+            },
+            {
+                "tag":"Ischemic Heart Disease",
+                "patterns":["Acute and mild chest pain",
+                "Arrhythmia",
+                "Weakness",
+                "Loss of appetite",
+                "Palpitations"],
+                "responses":["It seems that you are suffering from Ischemic Heart Disease"]
+            },
+            {
+                "tag":"Hepatitis",
+                "patterns":["abdominal pain", "loss of appetite", "fatigue", "dark urine", "pale stool and jaundice"],
+                "responses":["It seems that you are suffering from Hepatitis"]
             }
+
 ]}
         
