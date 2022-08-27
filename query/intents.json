@@ -1,6 +1,11 @@
 {"intents":
 [
             {
+                "tag":"garbage",
+                "patterns":["asid","askdjas","askjdn","dkfsjd","sddkj","kjadf","fdsa"," ",""],
+                "responses":["Sorry, I didn't quite get that.","I'm sorry, I seem to be having trouble understanding.","I'm not quite sure what you said."] 
+            },
+            {
              "tag":"greetings",
              "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
              "responses":["Hello","Hey!","What can I do for you?"]
@@ -24,6 +29,11 @@
              "tag":"thanks",
              "patterns":["thanks","thank you","I am thankful for your response","appretiate your help"],
              "responses":["Welcome","No problem","You are welcome","Happy I could help"]
+            },
+            {
+             "tag":"Accept",
+             "patterns": ["Yes","Yeah","Sure","ofcourse","okay","ok","k","alright"],
+             "responses": ["Okay"]
             },
             {
              "tag":"common cold symptoms",
@@ -123,10 +133,6 @@
                     "Scaly or rough skin",
                     "Discolored skin patches"],
                 "responses":["It seem that you have some skin disease.\nDo you want me to detect the type of skin disease?"]
-            },
-            {
-                "tag":"Accept",
-                "patterns": ["Yes","Yeah","Sure","ofcourse","okay","ok","k","alright"]
             },
             {
                 "tag":"Typhoid",
