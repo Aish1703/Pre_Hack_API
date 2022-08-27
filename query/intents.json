@@ -258,7 +258,8 @@
             "Trouble in walking",
             "Dystonia",
             "Alexia",
-            "Agnosia"]
+            "Agnosia"],
+            "responses":["You have symptoms of a stroke"]
            },
            {
             "tag":"Bronchitis",
