@@ -50,6 +50,21 @@
              "responses":["It seems that you are suffering from fever"]
             },
             {
+                "tag":"Flu",
+                "patterns":["Fever",
+                "Malaise",
+                "Headache",
+                "Runny nose",
+                "Sneezing",
+                "Reduced sense of smell",
+                "Metallic taste in mouth",
+                "Chills",
+                "Cough",
+                "Body pain","muscle pain",
+                "Sore throat"],
+                "responses":["It seems that you are suffering from Flu"]
+            },
+            {
              "tag":"Diabetes symptoms",
              "patterns":["increased hunger",
              "increased thirst",
@@ -225,7 +240,52 @@
                 "tag":"Hepatitis",
                 "patterns":["abdominal pain", "loss of appetite", "fatigue", "dark urine", "pale stool and jaundice"],
                 "responses":["It seems that you are suffering from Hepatitis"]
-            }
-
+            },
+           {
+            "tag":"stroke",
+            "patterns":["Paralysis","numbness",
+            "Confusion","Trouble with speaking",
+            "Headache","vomiting",
+            "Trouble seeing",
+            "Metallic taste in mouth",
+            "Difficulty in swallowing",
+            "Trouble in walking",
+            "Dystonia",
+            "Alexia",
+            "Agnosia"]
+           },
+           {
+            "tag":"Bronchitis",
+            "patterns":["Cough",
+            "Production of mucus", "sputum", 
+            "Fatigue",
+            "Shortness of breath",
+            "Slight fever","chills"],
+            "responses":["It seems that you are suffering from Bronchitis"]           
+           },
+           {
+            "tag":"Chronic Obstructive Pulmonary Disease",
+            "patterns":["Chronic Bronchitis",
+            "Emphysema"],
+            "responses":["It seems that you are suffering from Chronic Obstructive Pulmonary Disease"]
+           },
+           {
+            "tag":"Alzheimer",
+            "patterns":["Loss of memory",
+            "Recollection slips","recalling",
+            "High level of difficulty recalling information"],
+            "responses":["It seems that you are suffering from Alzheimer"]
+           },
+           {
+            "tag":"Diarrhea",
+            "patterns":["Nausea","Fatigue","Loose motions"],
+            "responses":["It seems that you are suffering from Diarrhea"]
+           },
+           {
+            "tag":"Cirrhosis",
+            "patterns":["Vomiting blood","Nausea","Fatigue",
+            "Swelling of belly","Getting anemic"],
+            "responses":["It seems that you are suffering from Cirrhosis"]
+           }
 ]}
         
